@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo1.png'
+import logo from '../images/logoname.png'
 
 export default function About() {
     return (
@@ -13,6 +13,7 @@ export default function About() {
                             <img src={logo} className="responsive-img mt-4" alt="logo" width="50%" height="100%" />
                         </div>
                         <div className="col l6 s12">
+                            <h5>Little Earth Farms & Nursery</h5>
                             <p>Classic Maintenance Services Pvt. Ltd. is India's leading commercial landscaping / Horticulture and maintenance company. For Five years the company has maintained its commitment to quality, integrity and service.</p>
                             <a className="btn" href="#services">Services</a>
                         </div>
