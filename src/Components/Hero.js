@@ -43,7 +43,7 @@ export default function Hero() {
     <li>
       <img src="https://lorempixel.com/580/250/nature/4" /> 
       <div className="caption center-align">
-        <h3>This is our big Tagline!</h3>
+        <h3>This is our big Tagline</h3>
         <h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
       </div>
     </li>
