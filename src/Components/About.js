@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logoname.png'
+import logo from '../images/final.png'
 
 export default function About() {
     return (
@@ -10,7 +10,7 @@ export default function About() {
                    </div>
                     <div className="row">
                         <div className="col l6 s12">
-                            <img src={logo} className="responsive-img mt-4" alt="logo" width="50%" height="100%" />
+                            <img src={logo} className="responsive-img mt-4" alt="logo" width="100%" height="100%" />
                         </div>
                         <div className="col l6 s12">
                             <h5 className="name green-text">Little Earth Farms & Nursery</h5>

@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function SliderItem() {
+export default function SliderItem(props) {
     return (
-        <div className="card">
+        <div className="card ">
             <div className="card-image">
-                <img src="https://cdnk.nurserylive.com/images/nlive150k/home/nurserylive-corporate-gifting-home-page-4.jpg" alt="card" className="" />
-                <span className="card-title">Card Title</span>
+                <img src={props.img} alt="card" className="h-300" />
+                <span className="card-title">{props.text}</span>
             </div>
         </div>
     )

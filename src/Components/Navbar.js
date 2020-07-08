@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import M from  'materialize-css/dist/js/materialize.min.js';
-import logo from '../images/logononame.png'
+import logo from '../images/final.png'
 
 
 export default function Navbar() {
