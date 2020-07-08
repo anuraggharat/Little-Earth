@@ -22,12 +22,12 @@ export default function Footer() {
                                 </a>
                         </div>
                     </div>
-                    <div className="row m-0 black">
+                    <div className="row m-0 black py-3">
                     <div className="left black white-text">
                         <p>2020.All Rights Reserved.</p>
                     </div>
                     <div className="right black white-text">
-                        <p>Designed and Developed by Anurag Gharat</p>
+                        <p>Designed and Developed by <a target="_blank" href="http://anuraggharat.me/" className="deep-orange-text">Anurag Gharat</a></p>
                     </div>
                     </div>
                 </div>

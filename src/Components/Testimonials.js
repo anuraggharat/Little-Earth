@@ -2,16 +2,11 @@ import React, { useEffect } from 'react'
 import M from  'materialize-css/dist/js/materialize.min.js';
 import TestimonialCard from './TestimonialCard';
 
-
-
-
-
-
 export default function Testimonials() {
 
         useEffect(()=>{
             var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems,{
+        var instances = M.Carousel.init(elems,{
         indicators:true
     });
         },[])

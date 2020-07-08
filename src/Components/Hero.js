@@ -5,9 +5,6 @@ import pic2 from '../images/image2.jpg'
 import pic3 from '../images/image3.jpg'
 import pic4 from '../images/image4.jpg'
 
-
-
-
 export default function Hero() {
 
     useEffect(()=>{

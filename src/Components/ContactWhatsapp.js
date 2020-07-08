@@ -14,7 +14,7 @@ export default function ContactWhatsapp() {
                     <i className="material-icons teal-text display-2">sms</i>
                     <h6>Whatsapp us at:</h6>
                     <p>7745050822</p>
-                    <a className="btn btn2" href="#">Whatsapp us? 
+                    <a className="btn btn2" target="_blank" rel="noopener noreferrer"  href="https://api.whatsapp.com/send?phone=8380032300">Whatsapp us? 
                     <i className="material-icons left">sms</i>
                     </a>
                   </div>
@@ -24,7 +24,7 @@ export default function ContactWhatsapp() {
                     <i className="material-icons teal-text display-2">drafts</i>
                     <h6>Mail us at:</h6>
                     <p>Email</p>
-                    <a className="btn" href="#">Mail Now
+                    <a className="btn" target="_blank" href="mailto:littleearthfarmsandnursery@gmail.com"   rel="noopener noreferrer">Mail Now
                     <i className="material-icons left">drafts</i>
                     </a>
                   </div>
