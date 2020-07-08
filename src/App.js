@@ -6,6 +6,7 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import Services from './Components/Services'
 import ContactWhatsapp from './Components/ContactWhatsapp';
+import Features from './Components/Features';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Services />
       <ContactWhatsapp />
+      <Features />
       <Footer />
 
     </div>
