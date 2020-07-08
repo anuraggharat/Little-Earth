@@ -8,6 +8,7 @@ import Services from './Components/Services'
 import ContactWhatsapp from './Components/ContactWhatsapp';
 import Features from './Components/Features';
 import Testimonials from './Components/Testimonials';
+import ItemSlider from './Components/ItemSlider';
 
 
 function App() {
@@ -18,10 +19,10 @@ function App() {
       <About />
       <Services />
       <ContactWhatsapp />
+<ItemSlider />
       <Features />
       <Testimonials />
       <Footer />
-
     </div>
   );
 }
