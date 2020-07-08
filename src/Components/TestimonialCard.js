@@ -3,10 +3,10 @@ import React from 'react'
 export default function TestimonialCard() {
     return (
         <div className="carousel-item p-5">
-                <div className="card-panel h-100">
-                    <div className="row valign-wrapper">
-                        <div className="col l5 s12 ">
-                            <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="testimonial" className=" circle responsive-img"  />
+                <div className="card-panel">
+                    <div className="row">
+                        <div className="col l5 s12 center ">
+                            <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="testimonial" className=" circle panel-image"  />
                         </div>
                         <div className="col l7 s12">
                             <h5>Anurag Gharat</h5>
