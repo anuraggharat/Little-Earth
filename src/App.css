@@ -18,7 +18,9 @@ body{
 }
 
 
-
+.p-5{
+    padding: 15px 100px !important;
+}
 
 
 /* margin and padding utilities */
@@ -53,3 +55,4 @@ body{
     color: white;
     margin: 10px 25px;
 }
+

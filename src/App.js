@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import Services from './Components/Services'
 import ContactWhatsapp from './Components/ContactWhatsapp';
 import Features from './Components/Features';
+import Testimonials from './Components/Testimonials';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <ContactWhatsapp />
       <Features />
+      <Testimonials />
       <Footer />
 
     </div>
