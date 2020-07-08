@@ -14,7 +14,7 @@ export default function Hero() {
         var elems = document.querySelectorAll('.slider');
         var instances = M.Slider.init(elems, {
             indicators:true,
-            height:500
+            height:700
         });
     },[])
 

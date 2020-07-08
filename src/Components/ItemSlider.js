@@ -20,7 +20,7 @@ export default function ItemSlider() {
       </div>
 <div className="row pt-5">
        <Carousel 
-       itemsToScroll={3} 
+       itemsToScroll={1} 
        itemsToShow={3} 
        breakPoints={breakPoints} 
        autoPlaySpeed={1500}
