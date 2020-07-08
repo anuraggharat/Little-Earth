@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
@@ -9,9 +9,17 @@ import ContactWhatsapp from './Components/ContactWhatsapp';
 import Features from './Components/Features';
 import Testimonials from './Components/Testimonials';
 import ItemSlider from './Components/ItemSlider';
+import M from  'materialize-css/dist/js/materialize.min.js';
+
 
 
 function App() {
+
+  useEffect(()=>{
+    M.AutoInit();
+
+  },[])
+
   return (
     <div className="App">
       <Navbar />

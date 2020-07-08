@@ -4,6 +4,9 @@ export default function ContactWhatsapp() {
 
     return (
         <div className="parallax-box">
+          <div className="container center white-text " >
+            <h3 className="bold-text">Contact Us!</h3>
+          </div>
             <div className="container">
               <div className="row center">
                 <div className="col l4 s12">

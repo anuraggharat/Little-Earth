@@ -24,6 +24,9 @@ export default function Navbar() {
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a className=" green-text accent-4" href="#home">Home</a></li>
                 <li><a className=" green-text accent-3" href="#about">About</a></li>
+                <li><a className=" green-text accent-3" href="#services">Services</a></li>
+                <li><a className=" green-text accent-3" href="#features">Features</a></li>
+
              </ul>
             
             </div>

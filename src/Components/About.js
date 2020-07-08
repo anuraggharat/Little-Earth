@@ -3,9 +3,9 @@ import logo from '../images/logoname.png'
 
 export default function About() {
     return (
-        <section>
+        <section className="section scrollspy" id="about">
                <div className="container">
-                   <div className="row center">
+                   <div className="row center heading">
                        <h1>About Us</h1>
                    </div>
                     <div className="row">
@@ -13,9 +13,9 @@ export default function About() {
                             <img src={logo} className="responsive-img mt-4" alt="logo" width="50%" height="100%" />
                         </div>
                         <div className="col l6 s12">
-                            <h5>Little Earth Farms & Nursery</h5>
+                            <h5 className="name green-text">Little Earth Farms & Nursery</h5>
                             <p>Classic Maintenance Services Pvt. Ltd. is India's leading commercial landscaping / Horticulture and maintenance company. For Five years the company has maintained its commitment to quality, integrity and service.</p>
-                            <a className="btn" href="#services">Services</a>
+                            <a className="btn mt btn-large" href="#services">Services</a>
                         </div>
                     </div>
                 </div> 

@@ -4,7 +4,11 @@ import React from 'react'
 
 export default function ItemSlider() {
   return (
-    <div>
+    <section className="section" id="shop">
+      <div className="container center heading">
+        <h1>Available Products!</h1>
+      </div>
+<div className="container pt-5">
        <Carousel itemsToScroll={3} itemsToShow={3}>
       <SliderItem/>
       <SliderItem/>
@@ -17,5 +21,8 @@ export default function ItemSlider() {
 
     </Carousel>
     </div>
+
+    </section>
+    
   )
 }

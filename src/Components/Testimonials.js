@@ -18,7 +18,7 @@ export default function Testimonials() {
 
     return (
         <div className="container">
-            <div className="row center">
+            <div className="row center heading">
                 <h1>Client Testimonials</h1>
             </div>
             <div className="carousel carousel-slider"  >
