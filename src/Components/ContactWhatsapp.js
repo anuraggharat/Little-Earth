@@ -13,7 +13,7 @@ export default function ContactWhatsapp() {
                   <div className="card-panel">
                     <i className="material-icons teal-text display-2">sms</i>
                     <h6>Whatsapp us:</h6>
-                    <a className="btn btn2" target="_blank" rel="noopener noreferrer"  href="https://api.whatsapp.com/send?phone=8380032300">Whatsapp 
+                    <a className="btn btn2" target="_blank" rel="noopener noreferrer"  href="https://api.whatsapp.com/send?phone=+91-8380032300">Whatsapp 
                     <i className="material-icons left">sms</i>
                     </a>
                   </div>

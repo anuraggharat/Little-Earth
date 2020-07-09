@@ -18,7 +18,7 @@ export default function Footer() {
                                 <a className="right" href="" target="_blank">
                                 <FaInstagram  className="social-media"/>
                                 </a>
-                                <a className="right" href="https://api.whatsapp.com/send?phone=8380032300" target="_blank">
+                                <a className="right" href="https://api.whatsapp.com/send?phone=+918380032300" target="_blank">
                                 <FaWhatsapp  className="social-media"/>
                                 </a>
                                 <a className="right" href="mailto:littleearthfarmsandnursery@gmail.com" target="_blank">
