@@ -42,6 +42,9 @@ nav{
     height: 200px;
     width: 200px;
 }
+.logobottom{
+    margin-top: 50px !important;
+}
 /* margin and padding utilities */
 .mt-2{
     margin-top: 20px;
@@ -50,7 +53,7 @@ nav{
     padding-top:40px ;
 }
 .pt-5{
-    padding-top:50px ;
+    padding-top:50px !important ;
 }
 .m-0{
     margin: 0px !important;

@@ -10,6 +10,7 @@ import Features from './Components/Features';
 import Testimonials from './Components/Testimonials';
 import ItemSlider from './Components/ItemSlider';
 import M from  'materialize-css/dist/js/materialize.min.js';
+import Work from './Components/Work';
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Services />
       <ContactWhatsapp />
 <ItemSlider />
+<Work />
       <Features />
       <Testimonials />
       <Footer />
