@@ -13,6 +13,7 @@ export default function Footer() {
                                 <h5 className="m-0 name green-text">Little Earth Farms & Nursery</h5>
                                 <p className="m-0">Knot With Nature</p>
                                 <p className="grey-text darken-4">Little Earth Farms and Nursery, Ahead Of Harmony Resort , Opp Prakash Patil Home , Parur , Karle Khind Alibag</p>
+                                <p>+91-8380032300 | littleearthfarmsandnursery@gmail.com</p>
                             </div>
                             <div className="col l6 s12  ">
                                 <a className="right" href="" target="_blank">

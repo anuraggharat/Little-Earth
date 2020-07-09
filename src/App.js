@@ -26,9 +26,9 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <ItemSlider />
       <ContactWhatsapp />
-<ItemSlider />
-<Work />
+      <Work />
       {/* <Features /> */}
       {/* <Testimonials /> */}
       <Footer />

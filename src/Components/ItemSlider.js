@@ -28,7 +28,7 @@ export default function ItemSlider() {
   ]
 
   return (
-    <section className="section" id="shop">
+    <section className="section scrollspy" id="products">
       <div className="container center heading">
         <h1>Available Products!</h1>
       </div>

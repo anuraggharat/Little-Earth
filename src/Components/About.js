@@ -21,7 +21,6 @@ export default function About() {
                 </div>
                 <div className="container">
                 <h3>Areas we work in:</h3>
-                <p className="teal-text darken-4">Garden Care, Composting, Organic Filter, Prunning , Sowing Seeds, Watering, Gardening Methods, Kitchen Gardening, Container Gardening, Indoor Gardening, Indoor Gardening, Indoor Gardening, Vertical Gardening, Permaculture Gardening.</p>
                 <p>
                     <span className="chip teal white-text">Garden Care</span>
                     <span className="chip teal white-text">Composting</span>

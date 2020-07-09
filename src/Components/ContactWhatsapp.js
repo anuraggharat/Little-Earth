@@ -3,7 +3,8 @@ import React from 'react'
 export default function ContactWhatsapp() {
 
     return (
-        <div className="parallax-box">
+        <section className="scrollspy" id="contact">
+          <div className="parallax-box">
           <div className="container center white-text " >
             <h3 className="bold-text">Contact us</h3>
           </div>
@@ -39,5 +40,6 @@ export default function ContactWhatsapp() {
               </div>
             </div>
         </div>
+        </section>
     )
 }
