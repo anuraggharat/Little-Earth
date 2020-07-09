@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import M from  'materialize-css/dist/js/materialize.min.js';
 import pic1 from '../images/image1.jpeg'
-import pic2 from '../images/image2.jpg'
-import pic3 from '../images/image3.jpg'
-import pic5 from '../images/image5.jpg'
+import pic2 from '../images/image2-min.jpg'
+import pic3 from '../images/image3-min.jpg'
+import pic5 from '../images/image5-min.jpg'
 
 
 export default function Hero() {
