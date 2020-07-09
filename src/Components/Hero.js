@@ -23,10 +23,10 @@ export default function Hero() {
       
         <li>
           <img src={pic1} alt="pic1"/> 
-          <div className="caption right-align pt-5 ">
+          <div className="caption right-align pt-5 light-bg">
             <h1 className="white-text bold-text ">Little Earth</h1>
-            <h3 className="light white-text text-lighten-3">Subtle knot with Nature.</h3>
-            <button className="btn btn-large">Know  more</button>
+            <h3 className="light white-text text-lighten-3">Knot with Nature.</h3>
+            <a className="btn btn-large" href="#about" >Know  more</a>
           </div>
         </li>
         <li>

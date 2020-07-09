@@ -1,10 +1,12 @@
 import React from 'react'
-import landscaping from '../images/soil.png'
+import grass from '../images/grass.png'
 import pottedplant from '../images/pottedplant.png'
 import treatment from '../images/treatment.png'
 import Pest from '../images/insectiside.png'
 import Maintain from '../images/maintain.png'
 import Irrigation from '../images/irrigation.png'
+import Weeding from '../images/weeding.png'
+
 
 
 
@@ -17,42 +19,67 @@ export default function Services() {
                 </div>
                 <div className="row">
                     <div className="col l6 s12">
-                            <img src={landscaping} alt="landscaping" />
-                            <h4>Integrated Landscaping Maintenance</h4>
-                            <p className="grey-text darken-3">Truly effective Horticulture management requires the ability to deliver a complete range of services. Our services combine intelligent cost control and multi-layer problem solving into a complete landscape management solution.</p>
+                            <img src={Maintain} alt="landscaping" />
+                            <h4>Comprehensive Grounds Maintenance Programs </h4>
+                            <p className="grey-text darken-3">
+                            From month to month and season to season, your garden is managed by experts capable of identifying and reacting to any need in the most effective manner. 
+                            </p>
                     </div>
                     <div className="col l6 s12">
                         <img src={pottedplant} alt="potted plant" />
-                            <h4>Accurate Diagnosis & Treatment</h4>
-                            <p className="grey-text darken-3">There are hundreds of plant diseases and pests in India. Accurate diagnosis and treatment is essential in preventing long-term costly problems. We have developed the depth of experience and organization necessary for accurate, cost-effective diagnosis and treatment.</p>
+                            <h4>Accurate Diagnosis, Treatment and Prevention</h4>
+                            <p className="grey-text darken-3">
+                            There are hundreds of plant diseases and pests which demand accurate
+diagnosis and treatment is essential in preventing long-term problems. We
+have developed the depth of experience to cater to all such needs and
+requirements.
+</p>
                     </div>
                     </div>
 
                     <div className="row">
                     <div className="col l6 s12">
                         <img src={treatment} alt="potted plant" />
-                            <h4>Expert Horticulture Services & Care</h4>
-                            <p className="grey-text darken-3">Our staffs of experts with advanced horticulture degrees applies both education and experience to the design of fertility and pest management programs that meet the state's unique requirements.</p>
+                            <h4>Expert Horticulture Care </h4>
+                            <p className="grey-text darken-3">
+                            Our experts apply both education and experience to the design of fertility and pest management programs that meet your unique requirements.                             </p>
+                    
                     </div>
                     <div className="col l6 s12">
                         <img src={Pest} alt="potted plant" />
 
-                            <h4>Pest Control Service and Operators</h4>
-                            <p className="grey-text darken-3">Our fertilisation and pest control programs are performed by expert technicians under the careful supervision of highly educated horticultural experts.</p>
+                            <h4>Pest and Rodent eradication services </h4>
+                            <p className="grey-text darken-3">
+                            Our fertilisation and pest control programs are performed by expert technicians under the careful supervision of experts.
+                            </p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col l6 s12">
-                    <img src={Maintain} alt="potted plant" />
+                    <img src={grass} alt="potted plant" />
 
-                            <h4>Comprehensive Grounds Maintenance</h4>
-                            <p className="grey-text darken-3">From month to month and season to season, your investment is managed by experts capable of identifying and reacting to any need immediately.</p>
+                            <h4>Lawn</h4>
+                            <p className="grey-text darken-3">
+We develop gardens according to the latest trends. Our services include landscape design, landscape development, lawn supply and installation  
+</p>
                     </div>
+                    <div className="col l6 s12">
+                    <img src={Weeding} alt="potted plant" />
+
+                            <h4>Weeding and Pruning </h4>
+                            <p className="grey-text darken-3">
+                            Our experts are available in any season to help you with maintaining your garden and keep it in a healthy and blooming condition! </p>
+                    </div>
+                    </div>
+                    <div className="row">
+                    
                     <div className="col l6 s12">
                         <img src={Irrigation} alt="potted plant" />
 
-                            <h4>Irrigation Design & Installation</h4>
-                            <p className="grey-text darken-3">The landscape environment depends on water â€” the correct amounts properly delivered at the right times. We provide both scheduled and emergency service to assure that your irrigation system consistently.</p>
+                            <h4>Irrigation Design & Installation </h4>
+                            <p className="grey-text darken-3">
+                            The landscape environment depends on water and the correct amounts properly delivered at the right times. We provide prompt service to assure that your irrigation system is consistent 
+                            </p>
                     </div>
                     </div>
             </div>
