@@ -5,6 +5,7 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
  }
+ 
 .navbar-logo{
     max-height: 100% !important;
     margin-left: 10px;
@@ -81,9 +82,13 @@ nav{
 }
 
 .social-media{
-    font-size: 2.5rem;
-    color: white;
-    margin: 10px 25px;
+    font-size: 2rem;
+    color: #757575 ;
+    margin: 0px 10px;
+}
+.social-media:hover{
+    font-size: 2rem;
+    color: teal ;
 }
 
 @media only screen and (max-width: 600px) {
