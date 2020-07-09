@@ -82,6 +82,26 @@ We develop gardens according to the latest trends. Our services include landscap
                             </p>
                     </div>
                     </div>
+                    <div className="row">
+                        <h5>OTHER SERVICES</h5>
+                    <p>
+                    <span className="chip teal white-text">Garden Design & Accessory </span>
+                    <span className="chip teal white-text">Garden Decor </span>
+                    <span className="chip teal white-text">Garden Designing </span>
+                    <span className="chip teal white-text">Garden Themes </span>
+                    <span className="chip teal white-text">Garden Tools & Supplies </span>
+                    <span className="chip teal white-text">Pots/Planters/Containers Gardening Methods   </span>
+                    <span className="chip teal white-text">Container Gardening </span>
+                    <span className="chip teal white-text">Hydroponics </span>
+                    <span className="chip teal white-text">Indoor Gardening </span>
+                    <span className="chip teal white-text">Kitchen Gardening </span>
+                    <span className="chip teal white-text">Ornamental Gardening  </span>
+                    <span className="chip teal white-text">Terrace Gardening </span>   
+                    <span className="chip teal white-text">Vertical Gardening  </span>
+
+                  
+                </p>
+                    </div>
             </div>
         </section>
         

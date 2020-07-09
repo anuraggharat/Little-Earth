@@ -21,7 +21,24 @@ export default function About() {
                 </div>
                 <div className="container">
                 <h3>Areas we work in:</h3>
-                <p>Garden Care, Composting, Organic Filter, Prunning , Sowing Seeds, Watering, Gardening Methods, Kitchen Gardening, Container Gardening, Indoor Gardening, Indoor Gardening, Indoor Gardening, Vertical Gardening, Permaculture Gardening.</p>
+                <p className="teal-text darken-4">Garden Care, Composting, Organic Filter, Prunning , Sowing Seeds, Watering, Gardening Methods, Kitchen Gardening, Container Gardening, Indoor Gardening, Indoor Gardening, Indoor Gardening, Vertical Gardening, Permaculture Gardening.</p>
+                <p>
+                    <span className="chip teal white-text">Garden Care</span>
+                    <span className="chip teal white-text">Composting</span>
+                    <span className="chip teal white-text">Organic Fertiliser </span>
+                    <span className="chip teal white-text">Pruning </span>
+                    <span className="chip teal white-text">Sowing seeds  </span>
+                    <span className="chip teal white-text">Watering  </span>
+                    <span className="chip teal white-text">Gardening Methods  </span>
+                    <span className="chip teal white-text">Kitchen Gardening  </span>
+                    <span className="chip teal white-text">Container Gardening  </span>
+                    <span className="chip teal white-text">Indoor Gardening  </span>
+                    <span className="chip teal white-text">Vertical Gardening  </span>
+                    <span className="chip teal white-text">Permaculture Gardening  </span>
+                    
+
+                  
+                </p>
                 </div> 
         </section>
     )
