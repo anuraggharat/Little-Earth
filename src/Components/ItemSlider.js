@@ -1,6 +1,20 @@
 import Carousel from 'react-elastic-carousel'
 import SliderItem from "./SliderItem"
 import React from 'react'
+import cactus from '../images/cactus.jpg'
+import aquariumplants from '../images/aquariumplants.jpg'
+import ceramicpots from '../images/ceramicpots.jpg'
+import fertilizer from '../images/fertilizer.jpg'
+import gardenfurniture from '../images/gardenfurniture.jpg'
+import gardeniri from '../images/gardeniri.jpg'
+import homedecor from '../images/homedecor.jpg'
+import indoorplants from '../images/indoorplants.jpg'
+import plantseeds from '../images/plantseeds.jpg'
+import plasticpot from '../images/plasticpot.jpg'
+import gardeentools from '../images/gardentools.jpg'
+
+
+
 
 export default function ItemSlider() {
 
@@ -21,19 +35,23 @@ export default function ItemSlider() {
 <div className="row pt-5">
        <Carousel 
        itemsToScroll={1} 
-       itemsToShow={3} 
+       itemsToShow={4} 
        breakPoints={breakPoints} 
-       autoPlaySpeed={1500}
+       autoPlaySpeed={2500}
        itemPadding={[10, 20]} 
        enableAutoPlay >
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://cdnk.nurserylive.com/images/nlive150k/home/nurserylive-corporate-gifting-home-page-4.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
-      <SliderItem  img="https://www.shaileshnursery.com/wp-content/uploads/2019/05/gardening-tools-600x450.jpg" text="House" />
+      <SliderItem  img={cactus} text="Cactus" color="black-text" />
+      <SliderItem  img={aquariumplants} text="Aquarium Plants" color="black-text" />
+      <SliderItem  img={ceramicpots} text="Ceramic Pots" color="white-text" />
+      <SliderItem  img={fertilizer} text="Plant Fertilizer" color="white-text" />
+      <SliderItem  img={gardenfurniture} text="Garden Furniture" color="white-text" />
+      <SliderItem  img={gardeniri} text="Garden Irrigation" color="white-text" />
+      <SliderItem  img={homedecor} text="Home Plant Decor" color="white-text" />
+      <SliderItem  img={indoorplants} text="Indoor Plants" color="white-text" />
+      <SliderItem  img={plantseeds} text="Plant Seeds" color="white-text" />
+      <SliderItem  img={plasticpot} text="Plastic Pot" color="white-text" />
+      <SliderItem  img={gardeentools} text="Garden Tools" color="white-text" />
+
       
 
 
