@@ -18,7 +18,6 @@ function App() {
 
   useEffect(()=>{
     M.AutoInit();
-
   },[])
 
   return (
@@ -30,8 +29,8 @@ function App() {
       <ContactWhatsapp />
 <ItemSlider />
 <Work />
-      <Features />
-      <Testimonials />
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   );

@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="grey lighten-5 row m-0 pt-4">
                 <div className="row m-0">
                     <div className="row ">
-                        <div className="row m-0 valign-wrapper">
+                        <div className="row  valign-wrapper">
                             <div className="col l6 s12">
                                 <img src={logo} alt="footer logo" width="100" />
                                 <h5 className="m-0 name green-text">Little Earth Farms & Nursery</h5>
